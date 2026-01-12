@@ -1,6 +1,6 @@
 import { Code, Heart, Lightbulb, Users } from 'lucide-react';
-import { ScrollReveal, StaggerContainer, StaggerItem } from './ui/srcollReveral';
-import profilePhoto from '@/assets/profile-photo.png';
+import { ScrollReveal, StaggerContainer, StaggerItem } from './ui/ScrollReveal';
+import profilePhoto from '../assets/rabiul.jpeg';
 const values = [
   {
     icon: Code,

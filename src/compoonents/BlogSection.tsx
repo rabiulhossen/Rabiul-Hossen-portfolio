@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Calendar, Clock } from 'lucide-react';
 import { Button } from './ui/button';
-import { ScrollReveal, StaggerContainer, StaggerItem } from './ui/scroll-reveal';
+import { ScrollReveal, StaggerContainer, StaggerItem } from './ui/ScrollReveal';
 
 const blogPosts = [
   {
