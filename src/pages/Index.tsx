@@ -7,6 +7,8 @@ import { BlogSection } from "../compoonents/BlogSection";
 import { TestimonialsSection } from "../compoonents/TestimonialSection";
 import { ContactSection } from "../compoonents/ContactSection";
 import { Footer } from "../compoonents/Footer";
+import '..//index.css'
+import '../App.css'
 
 
 const Index = () => {

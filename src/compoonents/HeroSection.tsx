@@ -36,7 +36,7 @@ export const HeroSection = () => {
       <div className="container mx-auto px-6 pt-20">
         <div className="max-w-4xl mx-auto text-center">
           <motion.p
-            className="text-primary font-medium mb-4"
+            className=" text-5xl text-primary font-bold mb-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
@@ -50,7 +50,7 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Alex Chen
+            Rabiul Hossen
           </motion.h1>
           
           <motion.h2
