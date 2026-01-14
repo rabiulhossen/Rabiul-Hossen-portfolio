@@ -1,7 +1,7 @@
 import { Code, Heart, Lightbulb, Users } from 'lucide-react';
 import { ScrollReveal, StaggerContainer, StaggerItem } from './ui/ScrollReveal';
 import profilePhoto from '../assets/rabiul.jpeg';
-import StarBorder from './ui/StarBorder';
+
 const values = [
   {
     icon: Code,
