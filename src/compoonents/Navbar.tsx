@@ -90,8 +90,9 @@ export const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Rabiul
+            ✿༺𝕽𝖆𝖇𝖎𝖚𝕷✍༻✿ 
           </motion.a>
+          
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">

@@ -5,10 +5,10 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:hello@rabiul.dev', label: 'Email' },
+    { icon: Github, href: 'https://github.com/rabiulhossen/', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/rabiulhossen/', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://twitter.com/nomand_rabiul', label: 'Twitter' },
+    { icon: Mail, href: 'mailto:rabiulhossen001@gmail.com', label: 'Email' },
   ];
 
   const quickLinks = [
@@ -80,7 +80,7 @@ export const Footer = () => {
             >
               <a href="#home" className="inline-block group">
                 <span className="text-3xl font-bold text-gradient relative">
-                  Rabiul
+                𝕽𝖆𝖇𝖎𝖚𝕷
                   <motion.span
                     className="absolute -top-1 -right-3"
                     animate={{ rotate: [0, 15, -15, 0] }}

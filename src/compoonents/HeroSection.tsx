@@ -50,7 +50,7 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Rabiul Hossen
+          𝕽𝖆𝖇𝖎𝖚𝖑  𝓗𝖔𝖘𝖘𝖊𝖓
           </motion.h1>
           
           <motion.h2
@@ -93,32 +93,32 @@ export const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/rabiulhossen/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-200"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <Github size={24} />
+              <Github size={26} />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/rabiulhossen/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-200"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <Linkedin size={24} />
+              <Linkedin size={26} />
             </motion.a>
             <motion.a
-              href="mailto:hello@example.com"
+              href="mailto:rabiulhossen001@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors duration-200"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <Mail size={24} />
+              <Mail size={26} />
             </motion.a>
           </motion.div>
         </div>

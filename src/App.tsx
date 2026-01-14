@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "./compoonents/ThemeProvider";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import { FloatingElement } from "./compoonents/FloatingElement";
 
 const queryClient = new QueryClient();
 
