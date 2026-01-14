@@ -3,12 +3,12 @@ import { ExternalLink, Github } from 'lucide-react';
 import { Button } from './ui/button';
 import { ScrollReveal, StaggerContainer, StaggerItem } from './ui/ScrollReveal';
 
-import projectEcommerce from '../assets/rabiul.jpeg';
-import projectTaskmanager from '../assets/rabiul.jpeg';
-import projectWeather from '../assets/rabiul.jpeg';
-import projectAnalytics from '../assets/rabiul.jpeg';
-import projectRecipes from '../assets/rabiul.jpeg';
-import projectPortfolio from '../assets/rabiul.jpeg';
+import projectEcommerce from '../assets/project-ecommerce.png';
+import projectTaskmanager from '../assets/project-taskmanager.png';
+import projectWeather from '../assets/project-weather.png';
+import projectAnalytics from '../assets/project-analytics.png';
+import projectRecipes from '../assets/project-recipes.png';
+import projectPortfolio from '../assets/project-portfolio.png';
 
 const projects = [
   {
