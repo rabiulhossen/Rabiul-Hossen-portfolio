@@ -42,13 +42,13 @@ export const ContactSection = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'hello@alexchen.dev' },
-    { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567' },
-    { icon: MapPin, label: 'Location', value: 'San Francisco, CA' },
+    { icon: Mail, label: 'Email', value: 'rabiulhossen001@gmail.com' },
+    { icon: Phone, label: 'Phone', value: '+8801641647064' },
+    { icon: MapPin, label: 'Location', value: 'Remote' },
   ];
 
   return (
-    <section id="contact" className="py-24 bg-secondary/30">
+    <section id="contact" className="py-18 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal className="text-center mb-16">
@@ -81,10 +81,10 @@ export const ContactSection = () => {
                       transition={{ delay: 0.2 + index * 0.1 }}
                     >
                       <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                        <item.icon className="text-primary" size={20} />
+                        <item.icon className="text-primary" size={24} />
                       </div>
                       <div>
-                        <p className="text-sm text-muted-foreground">{item.label}</p>
+                        <p className="text-sm text-muted-foreground text-left">{item.label}</p>
                         <p className="font-medium">{item.value}</p>
                       </div>
                     </motion.div>

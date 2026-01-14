@@ -12,6 +12,8 @@ import { Footer } from './compoonents/Footer';
 import { AnimatedBackground } from './compoonents/AnimatedBackground';
 import { LoadingScreen } from './compoonents/LoadingScreeen';
 
+import { ParallexSection } from './compoonents/ParallexSection';
+
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -37,6 +39,7 @@ const Index = () => {
             <AboutSection />
             <ProjectsSection />
             <SkillsSection />
+            <ParallexSection/>
             <BlogSection />
             <TestimonialsSection />
             <ContactSection />

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from './ui/button';
+  import DecryptedText from './ui/DecryptedText';
 
 export const HeroSection = () => {
   return (
@@ -59,7 +60,20 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Frontend Developer & UI/UX Enthusiast
+
+
+
+{/*  Customized speed and characters */}
+<DecryptedText
+text="Frontend Developer & UI/UX Enthusiast"
+speed={100}
+maxIterations={20}
+characters="RabiuolHossen-Portfolio"
+className="revealed"
+parentClassName="all-letters"
+encryptedClassName="encrypted"
+/>
+            
           </motion.h2>
           
           <motion.p
