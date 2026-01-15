@@ -44,7 +44,7 @@ const blogPosts = [
 
 export const BlogSection = () => {
   return (
-    <section id="blog" className="py-24 bg-secondary/30">
+    <section id="blog" className="py-18 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal className="text-center mb-16">

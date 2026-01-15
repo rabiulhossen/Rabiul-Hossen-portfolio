@@ -27,7 +27,7 @@ const values = [
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-24 bg-secondary/30">
+    <section id="about" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal className="text-center mb-16">
@@ -36,7 +36,7 @@ export const AboutSection = () => {
           </ScrollReveal>
 
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
-            <div className="space-y-6">
+            <div className="space-y-8">
               <ScrollReveal delay={0.1}>
                 <p className="text-lg text-muted-foreground leading-relaxed text-left">
                   Hi there! I'm a passionate Frontend Developer with over one year of experience 
@@ -80,7 +80,7 @@ export const AboutSection = () => {
               <StaggerItem key={value.title}>
                 <div className="bg-card rounded-xl p-6 shadow-soft hover:shadow-hover transition-all duration-300 hover:-translate-y-2 border border-border/50 h-full">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                    <value.icon className="text-primary" size={24} />
+                    <value.icon className="text-primary " size={32} />
                   </div>
                   <h3 className="text-lg font-semibold mb-2">{value.title}</h3>
                   <p className="text-muted-foreground text-sm">{value.description}</p>

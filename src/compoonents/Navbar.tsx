@@ -90,11 +90,11 @@ export const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            𝕽𝖆𝖇𝖎𝖚𝕷
+            ༻✿𝕽𝖆𝖇𝖎𝖚𝕷✍✿༺ 
           </motion.a>
           
 
-          {/* Desktop Navigation ✍༻✿✿༺  */}
+          {/* Desktop Navigation  */}
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link, i) => (
               <motion.a
@@ -130,7 +130,7 @@ export const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Button variant="default" size="sm">
+              <Button variant="default" className="bg-gradient-to-r from-primary to-accent" size="sm">
                 Resume
               </Button>
             </motion.div>
@@ -191,7 +191,7 @@ export const Navbar = () => {
                   </motion.a>
                 ))}
                 <motion.div variants={mobileLinkVariants}>
-                  <Button variant="default" size="sm" className="w-fit">
+                  <Button variant="default" size="sm" className="w-fit bg-gradient-to-r from-primary to-accent" >
                     Resume
                   </Button>
                 </motion.div>
