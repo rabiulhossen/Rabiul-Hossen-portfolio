@@ -50,7 +50,7 @@ export const SkillsSection = () => {
                     transition={{ type: 'spring', stiffness: 300 }}
                   >
                     <div className="text-3xl mb-2">{skill.icon}</div>
-                    <p className="font-medium text-sm">{skill.name}</p>
+                    <p className="font-bold text-sm">{skill.name}</p>
                   </motion.div>
                 </StaggerItem>
               ))}
@@ -68,11 +68,11 @@ export const SkillsSection = () => {
                     whileHover={{ x: 4 }}
                   >
                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                      <span className="text-primary font-bold text-lg">{tool.name[0]}</span>
+                      <span className="text-primary font-bold text-xl">{tool.name[0]}</span>
                     </div>
                     <div>
-                      <p className="font-medium">{tool.name}</p>
-                      <p className="text-sm text-muted-foreground">{tool.description}</p>
+                      <p className="font-bold text-left">{tool.name}</p>
+                      <p className="text-sm text-muted-foreground text-left">{tool.description}</p>
                     </div>
                   </motion.div>
                 </StaggerItem>
